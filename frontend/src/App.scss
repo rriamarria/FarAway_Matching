@@ -5,7 +5,7 @@
     right:0;
     bottom:0;
     width:100%;
-    height:100%;
+    height:170%;
     display:block;
     }
     
@@ -392,4 +392,159 @@ p {
   }
 }
 
+.home-card {
+  position: relative;
+  top: 100px;
+  left: 300px;
+  z-index: -100;
+}
 
+/*HOME HEART BTTN*/
+
+#wrapper {
+	position: absolute;
+  margin-left: 50px;
+  margin-top: 50px;
+	animation:pulse 1s infinite;
+}
+.pulsingheart {
+  position: relative; 
+  width: 100px; 
+  height: 100px;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  border: transparent;
+  z-index: 200;
+}
+
+#pulsingheart  { 
+  position: relative; 
+  width: 100px; 
+  height: 90px;
+  left: 266px;
+  top: 67px;
+  z-index: 100;
+} 
+
+#pulsingheart:before, #pulsingheart:after { 
+  position: absolute; 
+  content: ""; 
+  left: 50px; 
+  top: 0; 
+  width: 50px; 
+  height: 80px; 
+  background: #aa0000; 
+  border-radius: 50px 50px 0 0; 
+  transform: rotate(-45deg);  
+  transform-origin: 0 100%;
+  animation:pulsecolor 1s infinite;
+} 
+
+#pulsingheart:after { 
+  left: 0; 
+  transform: rotate(45deg); 
+  transform-origin :100% 100%;
+  animation:pulsecolor 1s infinite;
+}
+
+@keyframes pulse {
+	10% {transform: scale(1.02)}
+}
+
+@keyframes pulsecolor {
+  10% {background: #dd0000}
+}
+
+/*THUMBS DOWN*/
+button.dislike {
+  width: 43px;
+  height: 43px;
+  margin: 0 auto;
+  border-radius: 50%;
+  color: #ff5252;
+  background-color: rgba(255, 138, 128, 0.3);
+  border-color: #ff5252;
+  border-width: 1px;
+  font-size: 15px;
+  line-height: 10px;
+  left: 500px;
+  top: 540px;
+  position: relative;
+}
+.button.dislike:before {
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+
+}
+
+/*next,prev home card bttn*/
+.prev {
+position: relative;
+top: 444px;
+left: 144px;
+}
+.next {
+position: relative;
+top: 444px;
+left: 499px;
+
+}
+.glow-on-hover {
+  width: 80px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.glow-on-hover:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-on-hover:active {
+  color: #000
+}
+
+.glow-on-hover:active:after {
+  background: transparent;
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}

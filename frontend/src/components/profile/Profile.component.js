@@ -13,7 +13,7 @@ const Profile = () => {
     <Fragment>
 
 
-<input id="slider" class="customSlider" type="checkbox">
+<input id="slider" class="customSlider" type="checkbox"/>
 <label for="slider"></label>
 
 <div class="wrapper">
@@ -24,7 +24,7 @@ const Profile = () => {
     </div>
     
     <div class="profile">
-        <img src="https://images.unsplash.com/photo-1484186139897-d5fc6b908812?ixlib=rb-0.3.5&s=9358d797b2e1370884aa51b0ab94f706&auto=format&fit=crop&w=200&q=80%20500w" class="thumbnail">
+        <img src="https://images.unsplash.com/photo-1484186139897-d5fc6b908812?ixlib=rb-0.3.5&s=9358d797b2e1370884aa51b0ab94f706&auto=format&fit=crop&w=200&q=80%20500w" class="thumbnail"/>
         <div class="check"><i class="fas fa-check"></i></div>
         <h3 class="name">Beverly Little</h3>
         <p class="title">Javascript Developer</p>
@@ -60,16 +60,12 @@ const Profile = () => {
 </div>
 
 
-  </div>
-</div>
+
+</Fragment>
 
 
-      {/* <img src={user.picture} alt="Profile" />
-
-      <h2>{user.name}</h2>
-      <p>{user.email}</p>
-      <code>{JSON.stringify(user, null, 2)}</code> */}
-    </Fragment>
+     
+   
   );
 };
 

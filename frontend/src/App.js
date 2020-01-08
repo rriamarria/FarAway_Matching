@@ -9,7 +9,7 @@ import Profile from "./components/profile/Profile.component";
 import history from "./utils/history";
 import PrivateRoute from "./components/PrivateRoute";
 import Welcome from './components/Welcome.component';
-import Home from './components/Card.component';
+import Home from './components/home/Home.component';
 import Card from './components/Card.component';
 
 
@@ -25,7 +25,9 @@ const  App = ()  => {
           <NavBar />
         </header>
         <Switch>
-          <Route path="/" exact/>
+        <Route path="/home" component={Home} />
+
+          <Route path="/" exact component={Home}/>
           <Route path="/profile" component={Profile} />
           <PrivateRoute path="/profile" component={Profile} />
           <Route path="/home" component={Home} />
