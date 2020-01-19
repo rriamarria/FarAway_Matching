@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/FarAway_Matching/./static/css/main.7cf94d23.chunk.css",
-    "main.js": "/FarAway_Matching/./static/js/main.14d0acde.chunk.js",
-    "main.js.map": "/FarAway_Matching/./static/js/main.14d0acde.chunk.js.map",
-    "runtime-main.js": "/FarAway_Matching/./static/js/runtime-main.08628cd5.js",
-    "runtime-main.js.map": "/FarAway_Matching/./static/js/runtime-main.08628cd5.js.map",
-    "static/css/2.17e5ed98.chunk.css": "/FarAway_Matching/./static/css/2.17e5ed98.chunk.css",
-    "static/js/2.bbc69c8a.chunk.js": "/FarAway_Matching/./static/js/2.bbc69c8a.chunk.js",
-    "static/js/2.bbc69c8a.chunk.js.map": "/FarAway_Matching/./static/js/2.bbc69c8a.chunk.js.map",
-    "index.html": "/FarAway_Matching/./index.html",
-    "precache-manifest.f8d30b739a08c1a97ed680f452356169.js": "/FarAway_Matching/./precache-manifest.f8d30b739a08c1a97ed680f452356169.js",
-    "service-worker.js": "/FarAway_Matching/./service-worker.js",
-    "static/css/2.17e5ed98.chunk.css.map": "/FarAway_Matching/./static/css/2.17e5ed98.chunk.css.map",
-    "static/css/main.7cf94d23.chunk.css.map": "/FarAway_Matching/./static/css/main.7cf94d23.chunk.css.map",
-    "static/media/App.css": "/FarAway_Matching/./static/media/DeathStar-VmWB.ade91cb0.ttf"
+    "main.css": "/FarAway_Matching/static/css/main.b6917992.chunk.css",
+    "main.js": "/FarAway_Matching/static/js/main.2d1881b0.chunk.js",
+    "main.js.map": "/FarAway_Matching/static/js/main.2d1881b0.chunk.js.map",
+    "runtime-main.js": "/FarAway_Matching/static/js/runtime-main.80bd8f11.js",
+    "runtime-main.js.map": "/FarAway_Matching/static/js/runtime-main.80bd8f11.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/FarAway_Matching/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.bbc69c8a.chunk.js": "/FarAway_Matching/static/js/2.bbc69c8a.chunk.js",
+    "static/js/2.bbc69c8a.chunk.js.map": "/FarAway_Matching/static/js/2.bbc69c8a.chunk.js.map",
+    "index.html": "/FarAway_Matching/index.html",
+    "precache-manifest.efc6f1d98908e6ab19ce8376a4dfd4d8.js": "/FarAway_Matching/precache-manifest.efc6f1d98908e6ab19ce8376a4dfd4d8.js",
+    "service-worker.js": "/FarAway_Matching/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/FarAway_Matching/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.b6917992.chunk.css.map": "/FarAway_Matching/static/css/main.b6917992.chunk.css.map",
+    "static/media/App.css": "/FarAway_Matching/static/media/DeathStar-VmWB.ade91cb0.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.08628cd5.js",
+    "static/js/runtime-main.80bd8f11.js",
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.bbc69c8a.chunk.js",
-    "static/css/main.7cf94d23.chunk.css",
-    "static/js/main.14d0acde.chunk.js"
+    "static/css/main.b6917992.chunk.css",
+    "static/js/main.2d1881b0.chunk.js"
   ]
 }
